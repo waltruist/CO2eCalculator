@@ -1,0 +1,64 @@
+body {
+    background-image: url('./img/pollution.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+    height: auto;
+    background-color: rgba(142, 105, 45, 0.8);
+    padding: .5em;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 5%;
+}
+
+.logo p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.center {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    background-color: rgba(245, 222, 179, .6);
+    padding: 1.5em;
+    margin-top: 5%;
+    margin-left: 40px;
+    }
+
+#calc {
+    background-color: ghostwhite;
+    color: black;
+    font-family: monospace;
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+#calc:hover{
+    background-color: brown;
+}
+
+label {
+    font-family: monospace;
+}
+
+footer {
+    background-color: black;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    height: 50px;
+    color: white;
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+}
